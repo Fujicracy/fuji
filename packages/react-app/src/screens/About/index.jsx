@@ -6,16 +6,16 @@ import {
   linkedinIcon,
   teamBoyanPhoto,
   teamDaigaroPhoto,
-  teamEdgarPhoto,
-  teamUnbornPhoto,
+  // teamEdgarPhoto,
+  // teamUnbornPhoto,
   teamYomePhoto,
-  teamTiagoPhoto,
+  // teamTiagoPhoto,
   teamPragueBrewerPhoto,
   partnerDelphi,
   partnerCapital,
   partnerMaven,
   partnerSpartan,
-  teamIvanPhoto,
+  // teamIvanPhoto,
 } from 'assets/images';
 
 const useStyles = makeStyles(theme =>
@@ -157,7 +157,7 @@ function Infos() {
               />
             </Grid>
 
-            <Grid item md={4} sm={4} xs={12}>
+            {/* <Grid item md={4} sm={4} xs={12}>
               <Person
                 picture={teamEdgarPhoto}
                 name="Edgar Moreau"
@@ -165,16 +165,7 @@ function Infos() {
                 twitter="TheEdgarMoreau"
                 position="Magic"
               />
-            </Grid>
-
-            <Grid item md={4} sm={4} xs={12}>
-              <Person
-                picture={teamUnbornPhoto}
-                name="unb0rn"
-                twitter="unb0rn__"
-                position="Design"
-              />
-            </Grid>
+            </Grid> */}
 
             <Grid item md={4} sm={4} xs={12}>
               <Person
@@ -187,28 +178,28 @@ function Infos() {
 
             <Grid item md={4} sm={4} xs={12}>
               <Person
-                picture={teamTiagoPhoto}
-                name="Tiago"
-                twitter="0xtiagofneto"
-                position="Techology"
-              />
-            </Grid>
-
-            <Grid item md={4} sm={4} xs={12}>
-              <Person
-                picture={teamIvanPhoto}
-                name="Ivan"
-                twitter="iafhurtado"
-                position="Product Lead"
+                picture={teamPragueBrewerPhoto}
+                name="PragueBrewer"
+                twitter="defilaunch"
+                position="Community Manager"
               />
             </Grid>
 
             <Grid item md={4} sm={4} xs={12}>
               <Person
                 picture={teamPragueBrewerPhoto}
-                name="PragueBrewer"
-                telegram="cryptoflippers"
-                position="Community Manager"
+                name="Pedro"
+                position="Techology"
+                twitter="0xpedrovalido"
+              />
+            </Grid>
+
+            <Grid item md={4} sm={4} xs={12}>
+              <Person
+                picture={teamPragueBrewerPhoto}
+                name="Commander Ape"
+                position="Design"
+                twitter=""
               />
             </Grid>
           </Grid>
